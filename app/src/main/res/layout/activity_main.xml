@@ -1,5 +1,4 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<LinearLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,4 +43,46 @@
         android:layout_weight="2"
         android:text="50%"/>
 
-</LinearLayout>
+</LinearLayout>-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arriba"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btncentrohorizontalarriba"
+        android:layout_above="@+id/btncentrocentrocentro"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abajo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btncentrohorizontalabajo"
+        android:layout_below="@+id/btncentrocentrocentro"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Derecha"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btncentrohorizontalderecha"
+        android:layout_toRightOf="@+id/btncentrocentrocentro"
+        android:layout_alignBaseline="@+id/btncentrocentrocentro"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izquierda"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btncentrohorizontalizquierda"
+        android:layout_toLeftOf="@+id/btncentrocentrocentro"
+        android:layout_alignBaseline="@+id/btncentrocentrocentro"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centro"
+        android:layout_centerInParent="true"
+        android:id="@+id/btncentrocentrocentro"/>
+</RelativeLayout>
