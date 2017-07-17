@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btnlinerlayout,btnrelativelayout,bntcontrollers, btnspinner, btnlisview;
+    Button btnlinerlayout,btnrelativelayout,bntcontrollers, btnspinner, btnlisview, btnlisviewwal;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnlisview = (Button) findViewById(R.id.viewlistview);
         btnlisview.setOnClickListener(this);
+
+        btnlisviewwal = (Button) findViewById(R.id.viewlistviewwarraylist);
+        btnlisviewwal.setOnClickListener(this);
     }
 
     @Override
@@ -51,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.viewlistview:
                 Intent intent4 = new Intent(MainActivity.this,Main6Activity.class);
                 startActivity(intent4);
+                break;
+            case R.id.viewlistviewwarraylist:
+                Intent intent5 = new Intent(MainActivity.this,Main7Activity.class);
+                startActivity(intent5);
                 break;
         }
     }
