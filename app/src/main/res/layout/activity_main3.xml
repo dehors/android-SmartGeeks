@@ -6,21 +6,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Arriba"
+        android:text="Up"
         android:layout_centerHorizontal="true"
         android:id="@+id/btncentrohorizontalarriba"
         android:layout_above="@+id/btncentrocentrocentro"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Abajo"
+        android:text="Down"
         android:layout_centerHorizontal="true"
         android:id="@+id/btncentrohorizontalabajo"
         android:layout_below="@+id/btncentrocentrocentro"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Derecha"
+        android:text="Right"
         android:layout_centerHorizontal="true"
         android:id="@+id/btncentrohorizontalderecha"
         android:layout_toRightOf="@+id/btncentrocentrocentro"
@@ -28,7 +28,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Izquierda"
+        android:text="Left"
         android:layout_centerHorizontal="true"
         android:id="@+id/btncentrohorizontalizquierda"
         android:layout_toLeftOf="@+id/btncentrocentrocentro"
@@ -36,7 +36,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Centro"
+        android:text="Center"
         android:layout_centerInParent="true"
         android:id="@+id/btncentrocentrocentro"/>
 </RelativeLayout>

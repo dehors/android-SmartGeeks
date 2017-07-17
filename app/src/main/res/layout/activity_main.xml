@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ejemplos"
+        android:text="Examples"
         android:layout_gravity="center_horizontal"
         android:textSize="20sp"
         android:textColor="#017bf4"
@@ -25,5 +25,15 @@
         android:layout_height="wrap_content"
         android:text="RelativeLayout"
         android:id="@+id/viewrelativelayout"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Combobox and checkbox"
+        android:id="@+id/viewcontrollers"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:id="@+id/viewspinner"/>
 
 </LinearLayout>

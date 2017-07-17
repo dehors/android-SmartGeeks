@@ -26,13 +26,15 @@
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:hint="Ingrese su nombre"
+                android:hint="type your name"
                 android:layout_margin="10dp"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textg"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Saludar"/>
+                android:text="Gretting"
+                android:id="@+id/btngretting"/>
 
 
             <Button
