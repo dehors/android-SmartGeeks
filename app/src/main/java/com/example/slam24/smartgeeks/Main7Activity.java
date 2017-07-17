@@ -8,13 +8,13 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class Main7Activity extends AppCompatActivity {
-    ListView tobe;
+    ListView tobe_;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main7);
 
-        tobe = (ListView) findViewById(R.id.lv02);
+        tobe_ = (ListView) findViewById(R.id.lv02);
 
         ArrayList list = new ArrayList();
         list.add("I");
@@ -26,6 +26,6 @@ public class Main7Activity extends AppCompatActivity {
         list.add("We");
 
         ArrayAdapter<CharSequence> adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,list);
-        tobe.setAdapter(adapter);
+        tobe_.setAdapter(adapter);
     }
 }

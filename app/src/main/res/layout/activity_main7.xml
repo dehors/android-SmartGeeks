@@ -14,12 +14,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="To be"
-        android:id="@+id/tvTitleLV2"/>
+        android:id="@+id/tvTitleLv2"/>
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lv02"
-        android:layout_below="@+id/tvTitleLV2"></ListView>
+        android:layout_below="@+id/tvTitleLv2"></ListView>
 
 </RelativeLayout>
