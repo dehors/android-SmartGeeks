@@ -35,5 +35,10 @@
         android:layout_height="wrap_content"
         android:text="Spinner"
         android:id="@+id/viewspinner"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+        android:id="@+id/viewlistview"/>
 
 </LinearLayout>
