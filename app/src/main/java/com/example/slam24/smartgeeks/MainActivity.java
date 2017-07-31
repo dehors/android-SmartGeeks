@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btnlinerlayout,btnrelativelayout,bntcontrollers, btnspinner, btnlisview, btnlisviewwal, btnsenddata, btncustom, btnfrag;
+    Button btnlinerlayout,btnrelativelayout,bntcontrollers, btnspinner, btnlisview, btnlisviewwal, btnsenddata, btncustom, btnfrag, btnfragdinami;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnfrag = (Button) findViewById(R.id.viewfragment);
         btnfrag.setOnClickListener(this);
+
+        btnfragdinami = (Button) findViewById(R.id.viewfragmentdinamic);
+        btnfragdinami.setOnClickListener(this);
     }
 
     @Override
@@ -79,6 +82,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.viewfragment:
                 Intent intent8 = new Intent(MainActivity.this,Main11Activity.class);
                 startActivity(intent8);
+                break;
+            case R.id.viewfragmentdinamic:
+                Intent intent9 = new Intent(MainActivity.this,Main12Activity.class);
+                startActivity(intent9);
                 break;
         }
     }
