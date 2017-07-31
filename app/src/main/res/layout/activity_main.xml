@@ -12,55 +12,61 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Examples"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20sp"
-        android:textColor="#017bf4"
-        android:layout_margin="20dp"
-        android:padding="10dp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LinerLayout"
-        android:id="@+id/viewlinerlayout"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RelativeLayout"
-        android:id="@+id/viewrelativelayout"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Combobox and checkbox"
-        android:id="@+id/viewcontrollers"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Spinner"
-        android:id="@+id/viewspinner"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ListView"
-        android:id="@+id/viewlistview"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ListView with array list"
-        android:id="@+id/viewlistviewwarraylist"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Data Activities"
-        android:id="@+id/viewdatabewteenactivities"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Custom buttom"
-        android:id="@+id/viewcustombotton"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#017bf4"
+                android:layout_margin="20dp"
+                android:padding="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LinerLayout"
+                android:id="@+id/viewlinerlayout"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RelativeLayout"
+                android:id="@+id/viewrelativelayout"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Combobox and checkbox"
+                android:id="@+id/viewcontrollers"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinner"
+                android:id="@+id/viewspinner"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView"
+                android:id="@+id/viewlistview"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView with array list"
+                android:id="@+id/viewlistviewwarraylist"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Activities"
+                android:id="@+id/viewdatabewteenactivities"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom buttom"
+                android:id="@+id/viewcustombotton"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment"
+                android:id="@+id/viewfragment"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
