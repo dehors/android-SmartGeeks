@@ -71,6 +71,11 @@
                 android:layout_height="wrap_content"
                 android:text="Fragment dinamic"
                 android:id="@+id/viewfragmentdinamic"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabbed - View Paper"
+                android:id="@+id/viewTabbed"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
