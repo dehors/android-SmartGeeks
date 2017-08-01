@@ -14,14 +14,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Data to save"
-        android:id="@+id/etdata"/>
+        android:id="@+id/etData"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSave"
         android:text="Guardar"
-        android:layout_below="@+id/etdata"
+        android:layout_below="@+id/etData"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
     <Button

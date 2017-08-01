@@ -81,6 +81,11 @@
                 android:layout_height="wrap_content"
                 android:text="Navigation drawer"
                 android:id="@+id/viewNav"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save data with Shared Preferences"
+                android:id="@+id/viewSP"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
