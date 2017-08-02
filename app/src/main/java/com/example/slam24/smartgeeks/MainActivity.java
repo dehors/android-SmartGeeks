@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button  btnlinerlayout,btnrelativelayout,
             bntcontrollers, btnspinner, btnlisview,
             btnlisviewwal, btnsenddata, btncustom,
-            btnfrag, btnfragdinami, btnTabbed, btnNav, btnsp;
+            btnfrag, btnfragdinami, btnTabbed, btnNav, btnsp, btnSQL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnsp = (Button) findViewById(R.id.viewSP);
         btnsp.setOnClickListener(this);
+
+        btnSQL = (Button) findViewById(R.id.viewSQL);
+        btnSQL.setOnClickListener(this);
     }
 
     @Override
@@ -110,6 +113,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.viewSP:
                 Intent intent12 = new Intent(MainActivity.this,Main15Activity.class);
                 startActivity(intent12);
+                break;
+            case R.id.viewSQL:
+                Intent intent13 = new Intent(MainActivity.this,Main16Activity.class);
+                startActivity(intent13);
                 break;
         }
     }
