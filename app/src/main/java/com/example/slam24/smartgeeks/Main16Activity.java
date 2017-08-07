@@ -54,6 +54,7 @@ public class Main16Activity extends AppCompatActivity {
                 String selection = AyudaBD.DatosTabla.COLUMN_ID+"=?";
 
                 int count = db.update(AyudaBD.DatosTabla.TABLE_NAME, valores,selection,argsel);
+                Toast.makeText(getApplicationContext(), "Kept", Toast.LENGTH_SHORT).show();
             }
         });
 
