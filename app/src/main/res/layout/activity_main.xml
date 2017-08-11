@@ -91,6 +91,11 @@
                 android:layout_height="wrap_content"
                 android:text="SQLite"
                     android:id="@+id/viewSQL"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MySQL"
+                android:id="@+id/viewMySQL"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
