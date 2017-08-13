@@ -94,8 +94,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="MySQL"
-                android:id="@+id/viewMySQL"/>
+                android:text="Retrofit"
+                android:id="@+id/viewRetrofit"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
