@@ -101,6 +101,11 @@
                 android:layout_height="wrap_content"
                 android:text="GoogleMaps"
                 android:id="@+id/viewGoogleMaps"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volley"
+                android:id="@+id/viewVolley"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

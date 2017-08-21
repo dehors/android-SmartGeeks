@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button  btnlinerlayout,btnrelativelayout,
             bntcontrollers, btnspinner, btnlisview,
             btnlisviewwal, btnsenddata, btncustom,
-            btnfrag, btnfragdinami, btnTabbed, btnNav, btnsp, btnSQL, btnRetrofit, btnGmap;
+            btnfrag, btnfragdinami, btnTabbed, btnNav, btnsp, btnSQL, btnRetrofit, btnGmap, btnvolley;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +63,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnGmap = (Button) findViewById(R.id.viewGoogleMaps);
         btnGmap.setOnClickListener(this);
+
+        btnvolley = (Button) findViewById(R.id.viewVolley);
+        btnvolley.setOnClickListener(this);
     }
 
     @Override
@@ -131,6 +134,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.viewGoogleMaps:
                 Intent intent15 = new Intent(MainActivity.this,MapsActivity.class);
                 startActivity(intent15);
+                break;
+            case R.id.viewVolley:
+                Intent intent16 = new Intent(MainActivity.this,Main18Activity.class);
+                startActivity(intent16);
                 break;
         }
     }
